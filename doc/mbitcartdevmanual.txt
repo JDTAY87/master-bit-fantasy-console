@@ -1,8 +1,8 @@
-Mega-Bit Fantasy Console Cartridge Development Manual
+Master-Bit Fantasy Console Cartridge Development Manual
 
-All lua files made for use with Mega-Bit should contain two user defined global functions, mbitSettings and mbitLoop.
-mbitSettings gets called once by Mega-Bit after loading the lua file and has no arguments or results.
-mbitLoop gets called by Mega-Bit's main loop, and gets passed user input as an integer argument and returns no result.
+All lua files made for use with Master-Bit should contain two user defined global functions, mbitSettings and mbitLoop.
+mbitSettings gets called once by Master-Bit after loading the lua file and has no arguments or results.
+mbitLoop gets called by Master-Bit's main loop, and gets passed user input as an integer argument and returns no result.
 The current format of the input integer is to set each of the six least significant bits to 1 if its associated key is down.
 The keys are c for the least significant bit, then z, up arrow, down arrow, left arrow, and right arrow.
 
