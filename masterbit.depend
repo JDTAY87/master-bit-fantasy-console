@@ -1,0 +1,1001 @@
+# depslib dependency file v1.0
+1512960677 source:c:\test\masterbit\masterbit.cpp
+	"mbsdl2.h"
+	"mblua.h"
+	"mbtexture.h"
+	"mbprint.h"
+
+1512782564 c:\test\masterbit\include\mbsdl2.h
+	<stdio.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1508786981 c:\mingwlib\include\\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\begin_code.h
+
+1508786982 c:\mingwlib\include\\sdl2\close_code.h
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\mingwlib\include\\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\mingwlib\include\\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508772769 c:\mingwlib\include\\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1512944519 source:c:\test\masterbit\src\mbsdl2.cpp
+	"mbsdl2.h"
+
+1512902760 c:\test\masterbit\include\mblua.h
+	<lua.hpp>
+
+1512808049 c:\mingwlib\include\\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1512808049 c:\mingwlib\include\\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1512808049 c:\mingwlib\include\\lualib.h
+	"lua.h"
+
+1512808049 c:\mingwlib\include\\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1512808049 c:\mingwlib\include\\lua.hpp
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1512908479 source:c:\test\masterbit\src\mblua.cpp
+	"mblua.h"
+
+1456756034 source:c:\test\lua-5.3.4\src\lapi.c
+	"lprefix.h"
+	<stdarg.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+
+1419872053 c:\test\lua-5.3.4\src\lprefix.h
+
+1482421880 c:\test\lua-5.3.4\src\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1482412130 c:\test\lua-5.3.4\src\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1425671390 c:\test\lua-5.3.4\src\lapi.h
+	"llimits.h"
+	"lstate.h"
+
+1447960582 c:\test\lua-5.3.4\src\llimits.h
+	<limits.h>
+	<stddef.h>
+	"lua.h"
+
+1482412130 c:\test\lua-5.3.4\src\lstate.h
+	"lua.h"
+	"lobject.h"
+	"ltm.h"
+	"lzio.h"
+	<signal.h>
+
+1470081084 c:\test\lua-5.3.4\src\lobject.h
+	<stdarg.h>
+	"llimits.h"
+	"lua.h"
+
+1456514415 c:\test\lua-5.3.4\src\ltm.h
+	"lobject.h"
+
+1441726865 c:\test\lua-5.3.4\src\lzio.h
+	"lua.h"
+	"lmem.h"
+
+1419009974 c:\test\lua-5.3.4\src\lmem.h
+	<stddef.h>
+	"llimits.h"
+	"lua.h"
+
+1432316756 c:\test\lua-5.3.4\src\ldebug.h
+	"lstate.h"
+
+1450702934 c:\test\lua-5.3.4\src\ldo.h
+	"lobject.h"
+	"lstate.h"
+	"lzio.h"
+
+1421164151 c:\test\lua-5.3.4\src\lfunc.h
+	"lobject.h"
+
+1450702934 c:\test\lua-5.3.4\src\lgc.h
+	"lobject.h"
+	"lstate.h"
+
+1446564961 c:\test\lua-5.3.4\src\lstring.h
+	"lgc.h"
+	"lobject.h"
+	"lstate.h"
+
+1482412130 c:\test\lua-5.3.4\src\ltable.h
+	"lobject.h"
+
+1441726865 c:\test\lua-5.3.4\src\lundump.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1482412130 c:\test\lua-5.3.4\src\lvm.h
+	"ldo.h"
+	"lobject.h"
+	"ltm.h"
+
+1482259020 source:c:\test\lua-5.3.4\src\lauxlib.c
+	"lprefix.h"
+	<errno.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	<sys/wait.h>
+
+1481036071 c:\test\lua-5.3.4\src\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1473102394 source:c:\test\lua-5.3.4\src\lbaselib.c
+	"lprefix.h"
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1484241266 c:\test\lua-5.3.4\src\lualib.h
+	"lua.h"
+
+1447268889 source:c:\test\lua-5.3.4\src\lbitlib.c
+	"lprefix.h"
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1482412130 source:c:\test\lua-5.3.4\src\lcode.c
+	"lprefix.h"
+	<math.h>
+	<stdlib.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1452010957 c:\test\lua-5.3.4\src\lcode.h
+	"llex.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+
+1462197732 c:\test\lua-5.3.4\src\llex.h
+	"lobject.h"
+	"lzio.h"
+
+1468948341 c:\test\lua-5.3.4\src\lopcodes.h
+	"llimits.h"
+
+1451499373 c:\test\lua-5.3.4\src\lparser.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1460402395 source:c:\test\lua-5.3.4\src\lcorolib.c
+	"lprefix.h"
+	<stdlib.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1414955944 source:c:\test\lua-5.3.4\src\lctype.c
+	"lprefix.h"
+	"lctype.h"
+	<limits.h>
+
+1310734229 c:\test\lua-5.3.4\src\lctype.h
+	"lua.h"
+	<limits.h>
+	"llimits.h"
+	<ctype.h>
+
+1448278183 source:c:\test\lua-5.3.4\src\ldblib.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1476880330 source:c:\test\lua-5.3.4\src\ldebug.c
+	"lprefix.h"
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1481644341 source:c:\test\lua-5.3.4\src\ldo.c
+	"lprefix.h"
+	<setjmp.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+	"lzio.h"
+
+1444319629 source:c:\test\lua-5.3.4\src\ldump.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lundump.h"
+
+1414955944 source:c:\test\lua-5.3.4\src\lfunc.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1482412130 source:c:\test\lua-5.3.4\src\lgc.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1480882644 source:c:\test\lua-5.3.4\src\linit.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1482259020 source:c:\test\lua-5.3.4\src\liolib.c
+	"lprefix.h"
+	<ctype.h>
+	<errno.h>
+	<locale.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<sys/types.h>
+
+1462197732 source:c:\test\lua-5.3.4\src\llex.c
+	"lprefix.h"
+	<locale.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lobject.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lzio.h"
+
+1482412130 source:c:\test\lua-5.3.4\src\lmathlib.c
+	"lprefix.h"
+	<stdlib.h>
+	<math.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1425671154 source:c:\test\lua-5.3.4\src\lmem.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1484241266 source:c:\test\lua-5.3.4\src\loadlib.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<dlfcn.h>
+	<windows.h>
+
+1482412130 source:c:\test\lua-5.3.4\src\lobject.c
+	"lprefix.h"
+	<locale.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"lvm.h"
+
+1420465713 source:c:\test\lua-5.3.4\src\lopcodes.c
+	"lprefix.h"
+	<stddef.h>
+	"lopcodes.h"
+
+1468864738 source:c:\test\lua-5.3.4\src\loslib.c
+	"lprefix.h"
+	<errno.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<unistd.h>
+
+1470081084 source:c:\test\lua-5.3.4\src\lparser.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+
+1447417011 source:c:\test\lua-5.3.4\src\lstate.c
+	"lprefix.h"
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	<time.h>
+
+1448278371 source:c:\test\lua-5.3.4\src\lstring.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+
+1482412130 source:c:\test\lua-5.3.4\src\lstrlib.c
+	"lprefix.h"
+	<ctype.h>
+	<float.h>
+	<limits.h>
+	<locale.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<math.h>
+
+1478522315 source:c:\test\lua-5.3.4\src\ltable.c
+	"lprefix.h"
+	<math.h>
+	<limits.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1456429314 source:c:\test\lua-5.3.4\src\ltablib.c
+	"lprefix.h"
+	<limits.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<time.h>
+
+1482412130 source:c:\test\lua-5.3.4\src\ltm.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1484241266 source:c:\test\lua-5.3.4\src\lua.c
+	"lprefix.h"
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<readline/readline.h>
+	<readline/history.h>
+
+1426125507 source:c:\test\lua-5.3.4\src\luac.c
+	"lprefix.h"
+	<ctype.h>
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lobject.h"
+	"lstate.h"
+	"lundump.h"
+	<ctype.h>
+	<stdio.h>
+	"ldebug.h"
+	"lobject.h"
+	"lopcodes.h"
+
+1446480570 source:c:\test\lua-5.3.4\src\lundump.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstring.h"
+	"lundump.h"
+	"lzio.h"
+
+1482412130 source:c:\test\lua-5.3.4\src\lutf8lib.c
+	"lprefix.h"
+	<assert.h>
+	<limits.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1454702354 source:c:\test\lua-5.3.4\src\lvm.c
+	"lprefix.h"
+	<float.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1441726865 source:c:\test\lua-5.3.4\src\lzio.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"llimits.h"
+	"lmem.h"
+	"lstate.h"
+	"lzio.h"
+
+1482421880 c:\test\lua-5.3.4\src\\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1482412130 c:\test\lua-5.3.4\src\\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1484241266 c:\test\lua-5.3.4\src\\lualib.h
+	"lua.h"
+
+1481036071 c:\test\lua-5.3.4\src\\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1512808049 c:\test\masterbit\include\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1512808049 c:\test\masterbit\include\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1512808049 c:\test\masterbit\include\lualib.h
+	"lua.h"
+
+1512808049 c:\test\masterbit\include\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1512808049 c:\test\masterbit\include\lua.hpp
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1512840228 source:c:\test\masterbit\src\mbtexture.cpp
+	"mbtexture.h"
+
+1512840192 c:\test\masterbit\include\mbtexture.h
+	<stdio.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1512946583 source:c:\test\masterbit\src\mbprint.cpp
+	"mbprint.h"
+
+1512945283 c:\test\masterbit\include\mbprint.h
+	<stdio.h>
+	<SDL2/SDL.h>
+	<lua.hpp>
+

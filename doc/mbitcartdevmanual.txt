@@ -1,0 +1,23 @@
+Mega-Bit Fantasy Console Cartridge Development Manual
+
+All lua files made for use with Mega-Bit should contain two user defined global functions, mbitSettings and mbitLoop.
+mbitSettings gets called once by Mega-Bit after loading the lua file and has no arguments or results.
+mbitLoop gets called by Mega-Bit's main loop, and gets passed user input as an integer argument and returns no result.
+The current format of the input integer is to set each of the six least significant bits to 1 if its associated key is down.
+The keys are c for the least significant bit, then z, up arrow, down arrow, left arrow, and right arrow.
+
+The mbit lua library currently contains three functions, listed below.
+
+mbit.settitle( string )
+Sets a line of up to 32 chars to be printed to the top center of the screen. Suggested to be used for program title.
+
+mbit.setauthor( string )
+Sets a line of up to 32 chars to be printed to the bottom center of the screen. Suggested to be used for author name.
+
+mbit.setline( integer, integer, string )
+Sets a line to be printed to one of three areas of the screen, in one of sixteen positions.
+The first integer can be 0, 1, or 2. The second integer can be 0 through 15.
+Area 0 is the left info area with a max string length of 14 chars.
+Area 2 is the left info area with a max string length of 14 chars.
+Area 1 is the play area with a max string length of 32 chars.
+The play area is 320 by 320 pixels and will also later be used for graphics.
