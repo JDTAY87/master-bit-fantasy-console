@@ -48,13 +48,14 @@ bool mbSDL2::audiostart()
     SDL_AudioSpec wantspec;
     SDL_zero( wantspec );
     wantspec.freq = 22050;
-    wantspec.format = AUDIO_U8;
+    wantspec.format = AUDIO_S8;
     wantspec.channels = 1;
-    wantspec.samples = 4;
+    wantspec.samples = 2048;
     wantspec.callback = NULL;
-    if ( SDL_OpenAudio( &wantspec, NULL ) < 0 )
+    audiodeviceID = SDL_OpenAudioDevice( NULL, 0, &wantspec, NULL, 0 );
+    if ( audiodeviceID < 0 )
     {
-        printf( "SDL_OpenAudio error: %s\n", SDL_GetError() );
+        printf( "SDL_OpenAudioDevice error: %s\n", SDL_GetError() );
         success = false;
     }
     return success;
@@ -100,12 +101,17 @@ SDL_Renderer* mbSDL2::getrenderer()
     return renderer;
 }
 
+SDL_AudioDeviceID mbSDL2::getaudiodeviceID()
+{
+    return audiodeviceID;
+}
+
 mbSDL2::~mbSDL2()
 {
     SDL_GameControllerClose( controller );
     SDL_DestroyRenderer( renderer );
     SDL_DestroyWindow( window );
-    SDL_CloseAudio();
+    SDL_CloseAudioDevice( audiodeviceID );
     IMG_Quit();
     SDL_Quit();
     return;

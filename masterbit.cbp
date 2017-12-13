@@ -38,11 +38,13 @@
 			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -llua53" />
 			<Add directory="C:/mingwlib/lib/" />
 		</Linker>
+		<Unit filename="include/mbaudio.h" />
 		<Unit filename="include/mblua.h" />
 		<Unit filename="include/mbprint.h" />
 		<Unit filename="include/mbsdl2.h" />
 		<Unit filename="include/mbtexture.h" />
 		<Unit filename="masterbit.cpp" />
+		<Unit filename="src/mbaudio.cpp" />
 		<Unit filename="src/mblua.cpp" />
 		<Unit filename="src/mbprint.cpp" />
 		<Unit filename="src/mbsdl2.cpp" />

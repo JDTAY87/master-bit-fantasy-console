@@ -2,6 +2,7 @@
 #include "mblua.h"
 #include "mbtexture.h"
 #include "mbprint.h"
+#include "mbaudio.h"
 
 class mbEngine
 {
@@ -14,6 +15,7 @@ private:
     mbLua lua;
     mbTexture font;
     mbPrint printdata;
+    mbAudio audio;
 };
 
 bool mbEngine::start( const char* luafile )
@@ -41,6 +43,7 @@ void mbEngine::mainloop()
     SDL_Event e;
     const Uint8* keyboardstate = NULL;
     int input = 0;
+    SDL_PauseAudioDevice( SDL2.getaudiodeviceID(), 0 );
     while ( !quit )
     {
         while ( SDL_PollEvent(&e) )
@@ -56,6 +59,11 @@ void mbEngine::mainloop()
             if ( e.type == SDL_QUIT ) { quit = true; }
             if ( e.window.event == SDL_WINDOWEVENT_MINIMIZED ) { minimized = true; }
             if ( e.window.event == SDL_WINDOWEVENT_RESTORED ) { minimized = false; }
+            if ( e.key.keysym.sym == SDLK_a && e.key.type == SDL_KEYUP )
+            {
+                SDL_ClearQueuedAudio( SDL2.getaudiodeviceID() );
+                SDL_QueueAudio( SDL2.getaudiodeviceID(), audio.getaudiodata(), 4096 );
+            }
         }
         lua.doloop( input );
         if ( minimized == false ) { mbEngine::updatescreen(); }
@@ -78,8 +86,10 @@ int main( int argc, char* argv[] )
     const char* filename;
     if ( argc == 2 ) { filename = argv[1]; }
     else { filename = "test.lua"; }
-    mbEngine engine;
-    if ( !engine.start( filename ) ) { printf( "Failed to initialize." ); }
-    else { engine.mainloop(); }
+    mbEngine* engine;
+    engine = new mbEngine;
+    if ( !engine->start( filename ) ) { printf( "Failed to initialize." ); }
+    else { engine->mainloop(); }
+    delete engine;
     return 0;
 }

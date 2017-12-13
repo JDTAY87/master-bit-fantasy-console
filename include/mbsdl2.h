@@ -11,6 +11,7 @@ class mbSDL2
         bool start();
         SDL_Window* getwindow();
         SDL_Renderer* getrenderer();
+        SDL_AudioDeviceID getaudiodeviceID();
         ~mbSDL2();
 
     protected:
@@ -24,6 +25,7 @@ class mbSDL2
         SDL_Window* window;
         SDL_Renderer* renderer;
         SDL_GameController* controller;
+        SDL_AudioDeviceID audiodeviceID;
 };
 
 #endif // MBSDL2_H

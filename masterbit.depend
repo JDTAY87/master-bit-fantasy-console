@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1512960677 source:c:\test\masterbit\masterbit.cpp
+1513122044 source:c:\test\masterbit\masterbit.cpp
 	"mbsdl2.h"
 	"mblua.h"
 	"mbtexture.h"
 	"mbprint.h"
+	"mbaudio.h"
 
-1512782564 c:\test\masterbit\include\mbsdl2.h
+1513120256 c:\test\masterbit\include\mbsdl2.h
 	<stdio.h>
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
@@ -349,7 +350,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1512944519 source:c:\test\masterbit\src\mbsdl2.cpp
+1513125395 source:c:\test\masterbit\src\mbsdl2.cpp
 	"mbsdl2.h"
 
 1512902760 c:\test\masterbit\include\mblua.h
@@ -991,11 +992,18 @@
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 
-1512946583 source:c:\test\masterbit\src\mbprint.cpp
+1513025546 source:c:\test\masterbit\src\mbprint.cpp
 	"mbprint.h"
 
 1512945283 c:\test\masterbit\include\mbprint.h
 	<stdio.h>
 	<SDL2/SDL.h>
 	<lua.hpp>
+
+1513121337 c:\test\masterbit\include\mbaudio.h
+	<stdio.h>
+	<SDL2/SDL.h>
+
+1513125155 source:c:\test\masterbit\src\mbaudio.cpp
+	"mbaudio.h"
 
