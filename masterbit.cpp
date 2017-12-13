@@ -62,7 +62,7 @@ void mbEngine::mainloop()
             if ( e.key.keysym.sym == SDLK_a && e.key.type == SDL_KEYUP )
             {
                 SDL_ClearQueuedAudio( SDL2.getaudiodeviceID() );
-                SDL_QueueAudio( SDL2.getaudiodeviceID(), audio.getaudiodata(), 4096 );
+                SDL_QueueAudio( SDL2.getaudiodeviceID(), audio.getaudiodata(), 4000 );
             }
         }
         lua.doloop( input );

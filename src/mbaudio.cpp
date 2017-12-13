@@ -2,12 +2,11 @@
 
 mbAudio::mbAudio()
 {
-    for ( int z = 0; z < 4096; z += 64 )
+    for ( int z = 0; z < 4000; z += 50 )
     {
-        for ( int z2 = (-32); z2 < 32; z2++ )
+        for ( int z2 = 0; z2 < 50; z2++ )
         {
-            int y = (-1)*z2*z2;
-            if ( y != 0 ) { audiodata[z+z2+32] = y / 16 + 64; }
+            audiodata[z+z2] = (Sint8)( 127*sin(2*3.14159*z2/50.0) );
         }
     }
 }

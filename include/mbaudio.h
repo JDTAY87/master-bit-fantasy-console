@@ -1,6 +1,7 @@
 #ifndef MBAUDIO_H
 #define MBAUDIO_H
 #include <stdio.h>
+#include <math.h>
 #include <SDL2/SDL.h>
 
 class mbAudio
@@ -13,7 +14,7 @@ class mbAudio
     protected:
 
     private:
-        Uint8 audiodata[4096];
+        Sint8 audiodata[4000];
 };
 
 #endif // MBAUDIO_H
