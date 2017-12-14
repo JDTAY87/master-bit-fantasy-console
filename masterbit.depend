@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1513189260 source:c:\test\masterbit\masterbit.cpp
+1513215438 source:c:\test\masterbit\masterbit.cpp
 	"mbsdl2.h"
 	"mblua.h"
 	"mbtexture.h"
@@ -1005,6 +1005,6 @@
 	<math.h>
 	<SDL2/SDL.h>
 
-1513190161 source:c:\test\masterbit\src\mbaudio.cpp
+1513235285 source:c:\test\masterbit\src\mbaudio.cpp
 	"mbaudio.h"
 

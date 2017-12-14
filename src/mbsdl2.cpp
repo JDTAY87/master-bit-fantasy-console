@@ -50,7 +50,7 @@ bool mbSDL2::audiostart()
     wantspec.freq = 22050;
     wantspec.format = AUDIO_S8;
     wantspec.channels = 1;
-    wantspec.samples = 2048;
+    wantspec.samples = 4096;
     wantspec.callback = NULL;
     audiodeviceID = SDL_OpenAudioDevice( NULL, 0, &wantspec, NULL, 0 );
     if ( audiodeviceID < 0 )
