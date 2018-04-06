@@ -2,6 +2,8 @@
 #include "mblua.h"
 #include "mbtexture.h"
 #include "mbprint.h"
+#include "mbbackground.h"
+#include "mbsprite.h"
 #include "mbaudio.h"
 
 class mbEngine
@@ -13,8 +15,10 @@ private:
     void updatescreen();
     mbSDL2 SDL2;
     mbLua lua;
-    mbTexture font;
+    mbTexture textures;
     mbPrint printdata;
+    mbBackground bgdata;
+    mbSprite spritedata;
     mbAudio audio;
 };
 
@@ -22,14 +26,18 @@ bool mbEngine::start( const char* luafile )
 {
     bool success = true;
     if ( !SDL2.start() ) { success = false; }
-    else if ( !font.load( SDL2.getrenderer(), "jfont2.png" ) ) { success = false; }
+    else if ( !textures.loadfont( "jfont2.png" ) ) { success = false; }
     else
     {
-        printdata.setfont( font.gettexture() );
         lua.start();
         lua.regfunct( "setauthor", &printdata.setauthor );
         lua.regfunct( "settitle", &printdata.settitle );
         lua.regfunct( "setline", &printdata.setline );
+        lua.regfunct( "loadtiles", &textures.loadtiles );
+        lua.regfunct( "loadsprites", &textures.loadsprites );
+        lua.regfunct( "setsprite", &spritedata.setsprite );
+        lua.regfunct( "movesprite", &spritedata.movesprite );
+        lua.regfunct( "settile", &bgdata.settile );
         lua.reglib();
         lua.dofile( luafile );
     }
@@ -76,6 +84,8 @@ void mbEngine::updatescreen()
 {
     SDL_Renderer* renderer = SDL2.getrenderer();
     SDL_RenderClear( renderer );
+    bgdata.render( renderer );
+    spritedata.render( renderer );
     printdata.render( renderer );
     SDL_RenderPresent( renderer );
     return;

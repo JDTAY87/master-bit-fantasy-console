@@ -1,6 +1,5 @@
 #include "mbprint.h"
 
-SDL_Texture* mbPrint::font = NULL;
 const char* mbPrint::title = "title not set";
 const char* mbPrint::author = "author not set";
 const char* mbPrint::lines[16][3];
@@ -13,12 +12,6 @@ mbPrint::mbPrint()
         lines[line][1] = "";
         lines[line][2] = "";
     }
-    return;
-}
-
-void mbPrint::setfont( SDL_Texture* fonttexture )
-{
-    font = fonttexture;
     return;
 }
 
@@ -106,7 +99,7 @@ void mbPrint::render( SDL_Renderer* renderer )
         dstrect.x = linechar * 10 + 160;
         srcrect.x = title[linechar] % 16 * 10;
         srcrect.y = title[linechar] / 16 * 20 - 40;
-        SDL_RenderCopy( renderer, font, &srcrect, &dstrect );
+        SDL_RenderCopy( renderer, mbTexture::getfont(), &srcrect, &dstrect );
     }
     dstrect.y = 340;
     for ( int linechar = 0; author[linechar] != 0 && linechar < 32; linechar++ )
@@ -114,7 +107,7 @@ void mbPrint::render( SDL_Renderer* renderer )
         dstrect.x = linechar * 10 + 160;
         srcrect.x = author[linechar] % 16 * 10;
         srcrect.y = author[linechar] / 16 * 20 - 40;
-        SDL_RenderCopy( renderer, font, &srcrect, &dstrect );
+        SDL_RenderCopy( renderer, mbTexture::getfont(), &srcrect, &dstrect );
     }
     for ( int line = 0; line < 16; line++ )
     {
@@ -124,21 +117,21 @@ void mbPrint::render( SDL_Renderer* renderer )
             dstrect.x = linechar * 10 + 10;
             srcrect.x = lines[line][0][linechar] % 16 * 10;
             srcrect.y = lines[line][0][linechar] / 16 * 20 - 40;
-            SDL_RenderCopy( renderer, font, &srcrect, &dstrect );
+            SDL_RenderCopy( renderer, mbTexture::getfont(), &srcrect, &dstrect );
         }
         for ( int linechar = 0; lines[line][1][linechar] != 0 && linechar < 32; linechar++ )
         {
             dstrect.x = linechar * 10 + 160;
             srcrect.x = lines[line][1][linechar] % 16 * 10;
             srcrect.y = lines[line][1][linechar] / 16 * 20 - 40;
-            SDL_RenderCopy( renderer, font, &srcrect, &dstrect );
+            SDL_RenderCopy( renderer, mbTexture::getfont(), &srcrect, &dstrect );
         }
         for ( int linechar = 0; lines[line][2][linechar] != 0 && linechar < 14; linechar++ )
         {
             dstrect.x = linechar * 10 + 490;
             srcrect.x = lines[line][2][linechar] % 16 * 10;
             srcrect.y = lines[line][2][linechar] / 16 * 20 - 40;
-            SDL_RenderCopy( renderer, font, &srcrect, &dstrect );
+            SDL_RenderCopy( renderer, mbTexture::getfont(), &srcrect, &dstrect );
         }
     }
     return;

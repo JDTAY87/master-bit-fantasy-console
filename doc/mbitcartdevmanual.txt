@@ -6,7 +6,7 @@ mbitLoop gets called by Master-Bit's main loop, and gets passed user input as an
 The current format of the input integer is to set each of the six least significant bits to 1 if its associated key is down.
 The keys are c for the least significant bit, then z, up arrow, down arrow, left arrow, and right arrow.
 
-The mbit lua library currently contains three functions, listed below.
+The mbit lua library currently contains eight functions, listed below.
 
 mbit.settitle( string )
 Sets a line of up to 32 chars to be printed to the top center of the screen. Suggested to be used for program title.
@@ -20,4 +20,24 @@ The first integer can be 0, 1, or 2. The second integer can be 0 through 15.
 Area 0 is the left info area with a max string length of 14 chars.
 Area 2 is the right info area with a max string length of 14 chars.
 Area 1 is the play area with a max string length of 32 chars.
-The play area is 320 by 320 pixels and will also later be used for graphics.
+The play area is 320 by 320 pixels and is also used for graphics.
+
+mbit.loadtiles( string )
+Loads a png file with the filename given in the string to be used as background tiles.
+Expected size is 320 by 320 pixels.
+
+mbit.loadsprites ( string )
+Loads a png file with the filename given in the string to be used as sprite frames.
+Expected size is 320 by 320 pixels.
+
+mbit.settile ( integer, integer )
+Sets a background tile to a given tile from the png background tileset.
+The first integer can be 0 - 255. The second integer is also 0 - 255.
+
+mbit.setsprite ( integer, integer )
+Sets a sprite to a given frame from the png sprite tileset.
+The first integer can be 0 - 39. The second integer is 0 - 255.
+
+mbit.movesprite ( integer, integer, integer )
+Moves a sprite to given x and y coordinates.
+The first integer can be 0 - 39. The second and third integers can be 0 - 300.

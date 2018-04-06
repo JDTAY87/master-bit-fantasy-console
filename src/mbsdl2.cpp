@@ -1,5 +1,7 @@
 #include "mbsdl2.h"
 
+SDL_Renderer* mbSDL2::renderer = NULL;
+
 mbSDL2::mbSDL2()
 {
     return;
@@ -70,6 +72,7 @@ bool mbSDL2::windowstart()
         printf( "SDL_CreateWindow error: %s\n", SDL_GetError() );
         success = false;
     }
+    else { SDL_SetWindowMinimumSize( window, 640, 360 ); }
     return success;
 }
 

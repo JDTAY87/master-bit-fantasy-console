@@ -1,17 +1,18 @@
 # depslib dependency file v1.0
-1513215438 source:c:\test\masterbit\masterbit.cpp
+1522973482 source:c:\test\masterbit\masterbit.cpp
 	"mbsdl2.h"
 	"mblua.h"
 	"mbtexture.h"
 	"mbprint.h"
+	"mbsprite.h"
 	"mbaudio.h"
 
-1513120256 c:\test\masterbit\include\mbsdl2.h
+1522968934 c:\test\masterbit\include\mbsdl2.h
 	<stdio.h>
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 
-1508786981 c:\mingwlib\include\\sdl2\sdl.h
+1519925811 c:\mingwlib\include\\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -43,12 +44,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_main.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_stdinc.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -77,34 +78,34 @@
 	<stdlib.h>
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_config.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_config.h
 	"SDL_platform.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_platform.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\begin_code.h
+1519925811 c:\mingwlib\include\\sdl2\begin_code.h
 
-1508786982 c:\mingwlib\include\\sdl2\close_code.h
+1519925811 c:\mingwlib\include\\sdl2\close_code.h
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_assert.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_atomic.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
 	<mbarrier.h>
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_audio.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -114,24 +115,24 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_error.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_endian.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_mutex.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_thread.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -142,31 +143,32 @@
 	<stdlib.h>
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_rwops.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_clipboard.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_cpuinfo.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
 	<altivec.h>
-	<mmintrin.h>
 	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
 	<xmmintrin.h>
 	<emmintrin.h>
 	<pmmintrin.h>
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_events.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -180,7 +182,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_video.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -188,13 +190,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_pixels.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_rect.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -202,7 +204,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_surface.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -211,11 +213,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_blendmode.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_keyboard.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -223,27 +225,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_keycode.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_scancode.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_mouse.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_joystick.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_gamecontroller.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -251,11 +253,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_quit.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_gesture.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -263,60 +265,60 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_touch.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_filesystem.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_haptic.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786981 c:\mingwlib\include\\sdl2\sdl_hints.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_loadso.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_log.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_messagebox.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_power.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_render.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_shape.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -325,7 +327,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_system.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -333,54 +335,54 @@
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_timer.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508786982 c:\mingwlib\include\\sdl2\sdl_version.h
+1519925811 c:\mingwlib\include\\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1508772769 c:\mingwlib\include\\sdl2\sdl_image.h
+1508776369 c:\mingwlib\include\\sdl2\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
 
-1513235314 source:c:\test\masterbit\src\mbsdl2.cpp
+1522969002 source:c:\test\masterbit\src\mbsdl2.cpp
 	"mbsdl2.h"
 
-1512902760 c:\test\masterbit\include\mblua.h
+1512906360 c:\test\masterbit\include\mblua.h
 	<lua.hpp>
 
-1512808049 c:\mingwlib\include\\lua.h
+1512811649 c:\mingwlib\include\\lua.h
 	<stdarg.h>
 	<stddef.h>
 	"luaconf.h"
 
-1512808049 c:\mingwlib\include\\luaconf.h
+1512811649 c:\mingwlib\include\\luaconf.h
 	<limits.h>
 	<stddef.h>
 	<stdint.h>
 	<assert.h>
 
-1512808049 c:\mingwlib\include\\lualib.h
+1512811649 c:\mingwlib\include\\lualib.h
 	"lua.h"
 
-1512808049 c:\mingwlib\include\\lauxlib.h
+1512811649 c:\mingwlib\include\\lauxlib.h
 	<stddef.h>
 	<stdio.h>
 	"lua.h"
 
-1512808049 c:\mingwlib\include\\lua.hpp
+1512811649 c:\mingwlib\include\\lua.hpp
 	"lua.h"
 	"lualib.h"
 	"lauxlib.h"
 
-1512908479 source:c:\test\masterbit\src\mblua.cpp
+1512912079 source:c:\test\masterbit\src\mblua.cpp
 	"mblua.h"
 
 1456756034 source:c:\test\lua-5.3.4\src\lapi.c
@@ -984,27 +986,30 @@
 	"lualib.h"
 	"lauxlib.h"
 
-1512840228 source:c:\test\masterbit\src\mbtexture.cpp
+1522975431 source:c:\test\masterbit\src\mbtexture.cpp
 	"mbtexture.h"
 
-1512840192 c:\test\masterbit\include\mbtexture.h
-	<stdio.h>
-	<SDL2/SDL.h>
-	<SDL2/SDL_image.h>
-
-1513025546 source:c:\test\masterbit\src\mbprint.cpp
-	"mbprint.h"
-
-1512945283 c:\test\masterbit\include\mbprint.h
-	<stdio.h>
-	<SDL2/SDL.h>
+1522973016 c:\test\masterbit\include\mbtexture.h
+	"mbsdl2.h"
 	<lua.hpp>
 
-1513189831 c:\test\masterbit\include\mbaudio.h
+1522969914 source:c:\test\masterbit\src\mbprint.cpp
+	"mbprint.h"
+
+1522969734 c:\test\masterbit\include\mbprint.h
+	"mbtexture.h"
+
+1513270878 c:\test\masterbit\include\mbaudio.h
 	<stdio.h>
 	<math.h>
 	<SDL2/SDL.h>
 
-1513235285 source:c:\test\masterbit\src\mbaudio.cpp
+1513764507 source:c:\test\masterbit\src\mbaudio.cpp
 	"mbaudio.h"
+
+1522970916 c:\test\masterbit\include\mbsprite.h
+	"mbtexture.h"
+
+1522972690 source:c:\test\masterbit\src\mbsprite.cpp
+	"mbsprite.h"
 

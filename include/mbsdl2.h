@@ -10,7 +10,7 @@ class mbSDL2
         mbSDL2();
         bool start();
         SDL_Window* getwindow();
-        SDL_Renderer* getrenderer();
+        static SDL_Renderer* getrenderer();
         SDL_AudioDeviceID getaudiodeviceID();
         ~mbSDL2();
 
@@ -23,7 +23,7 @@ class mbSDL2
         bool windowstart();
         bool rendererstart();
         SDL_Window* window;
-        SDL_Renderer* renderer;
+        static SDL_Renderer* renderer;
         SDL_GameController* controller;
         SDL_AudioDeviceID audiodeviceID;
 };
