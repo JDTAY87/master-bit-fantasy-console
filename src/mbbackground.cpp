@@ -30,7 +30,7 @@ extern "C" int mbBackground::settile( lua_State* L )
     }
     else
     {
-        tiles[ lua_tointeger( L, 1 ) % 40 ] = lua_tointeger( L, 2 ) % 256;
+        tiles[ lua_tointeger( L, 1 ) % 256 ] = lua_tointeger( L, 2 ) % 256;
     }
     return 0;
 }

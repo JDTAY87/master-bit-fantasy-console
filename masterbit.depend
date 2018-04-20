@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1522973482 source:c:\test\masterbit\masterbit.cpp
+1522976381 source:c:\test\masterbit\masterbit.cpp
 	"mbsdl2.h"
 	"mblua.h"
 	"mbtexture.h"
 	"mbprint.h"
+	"mbbackground.h"
 	"mbsprite.h"
 	"mbaudio.h"
 
@@ -1010,6 +1011,9 @@
 1522970916 c:\test\masterbit\include\mbsprite.h
 	"mbtexture.h"
 
-1522972690 source:c:\test\masterbit\src\mbsprite.cpp
+1522975983 source:c:\test\masterbit\src\mbsprite.cpp
 	"mbsprite.h"
+
+1522975693 c:\test\masterbit\include\mbbackground.h
+	"mbtexture.h"
 
